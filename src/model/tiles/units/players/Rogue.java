@@ -19,7 +19,7 @@ public class Rogue extends Player {
     public void levelUp() {
         super.levelUp();
         currentEnergy = MAX_ENERGY;
-        attack += 3 * level;
+        this.attack += 3 * level;
     }
 
     public void onGameTick() {
